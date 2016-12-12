@@ -10,6 +10,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        text_view.text = getString(R.string.new_text)
+        tv_toy_names.text = ToyBox.names.joinToString("\n\n\n")
+
     }
 }
